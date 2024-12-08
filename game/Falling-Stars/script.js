@@ -1,5 +1,6 @@
 const container = document.getElementById("game-container");
 const player = document.getElementById("player");
+const scoreDisplay = document.getElementById("score");
 
 let score = 0;
 let stars = [];
@@ -46,7 +47,7 @@ function updateStars() {
       starRect.right > playerRect.left
     ) {
       score++;
-      console.log("Score:", score);
+      scoreDisplay.textContent = `Score: ${score}`;
       star.remove();
       stars.splice(index, 1);
     }
@@ -68,4 +69,3 @@ function gameLoop() {
 // Start game
 setInterval(createStar, 1000); // Add a new star every second
 gameLoop();
-
