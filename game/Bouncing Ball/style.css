@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to bottom, #1c1c3c, #3b8d99);
+}
+
+canvas {
+  border: 2px solid white;
+  background: #000;
+}
