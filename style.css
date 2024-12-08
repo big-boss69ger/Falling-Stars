@@ -21,6 +21,12 @@ p {
   margin-bottom: 30px;
 }
 
+.game-links {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
 .game-link {
   display: inline-block;
   padding: 15px 30px;
