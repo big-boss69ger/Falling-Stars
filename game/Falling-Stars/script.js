@@ -68,3 +68,4 @@ function gameLoop() {
 // Start game
 setInterval(createStar, 1000); // Add a new star every second
 gameLoop();
+
