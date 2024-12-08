@@ -1,6 +1,7 @@
 # Falling-Stars
-git clone https://github.com/big-bos69ger/Falling-Stars
-cd gaming-page
+git init
 git add .
-git commit -m "Initial commit for gaming page"
-git push origin main
+git commit -m "Add main hub and Falling Stars game"
+git branch -M main
+git remote add origin https://github.com/yourusername/project-name.git
+git push -u origin main
