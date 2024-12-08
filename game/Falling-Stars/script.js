@@ -1,6 +1,5 @@
 const container = document.getElementById("game-container");
 const player = document.getElementById("player");
-const scoreDisplay = document.getElementById("score");
 
 let score = 0;
 let stars = [];
@@ -47,7 +46,7 @@ function updateStars() {
       starRect.right > playerRect.left
     ) {
       score++;
-      scoreDisplay.textContent = `Score: ${score}`;
+      console.log("Score:", score);
       star.remove();
       stars.splice(index, 1);
     }
