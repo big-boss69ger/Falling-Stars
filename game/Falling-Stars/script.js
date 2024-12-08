@@ -67,5 +67,5 @@ function gameLoop() {
 }
 
 // Start game
-setInterval(createStar, 1000); // Add a new star every second
-gameLoop();
+setInterval(createStar, 1000); // Add a new star every 6 second
+gameLoop(20);
